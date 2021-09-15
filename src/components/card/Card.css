@@ -1,0 +1,104 @@
+* {
+    word-spacing: 3px;
+    letter-spacing: 1px;
+  }
+  .container {
+    width: 40vw;
+  
+    /* display: flex; */
+    justify-content: center;
+    box-shadow: 0 0 15px 10px rgba(179, 174, 174, 0.5);
+    border-radius: 5px;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    overflow:visible;
+    background: #FEFEFE;
+    padding-bottom: 2rem;
+  
+  }
+  
+  .headerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  
+  .showInfo {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .bigger {
+    font-size: 2.2rem;
+  }
+  
+  .image-db {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+  }
+  
+  .icon {
+    width: 3rem;
+    height: 3rem;
+    box-shadow: 0 0 15px 10px rgba(179, 174, 174, 0.5);
+    border-radius: 50%;
+    padding: 0.2rem;
+    cursor: pointer;
+  
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* USER AREA */
+  
+  .userArea {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+  }
+  
+  .btn {
+    padding: 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #b76ea0;
+    color: white;
+    transition: all 0.5s;
+  }
+  
+  .btn:hover {
+    background: #fec861;
+    color: black;
+  }
+  
+  /* table */
+  
+  .addUserArea {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+  }
+  table, th, td {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      border-spacing: 10px 15px;
+      border-radius: 5px;
+    }
+  td {
+    text-align: center;
+  }
+  tr {
+    text-align: center;
+  }
+  th{
+      background: #FEC861;
+  }
+  
